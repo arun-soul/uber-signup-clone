@@ -16,7 +16,7 @@ img {
     margin-top: 1%;
     margin-bottom: 40px;
     font-family: Arial;
-    font-size: 40px;
+    font-size: 250%;
     text-align: center;
 }
 
@@ -62,19 +62,18 @@ img {
     }
 
     button {
-        border: none;
         background-color: rgb(0, 0, 0);
         color: white;
         border: solid;
+        font-weight: lighter;
         display: block;
-        font-family: arial;
         margin-right: auto;
-        margin-left: auto;
+        margin: 20px auto;
         font-size: 16px;
         height: 40px;
         width: 360px;
         transition: 0.4s;
-        border-width: 1px;
+        border-width: 2px;
     }
 
     button:hover {
